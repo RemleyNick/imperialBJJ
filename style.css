@@ -50,6 +50,7 @@
 #item .icon i {
     color: #fff;
     font-weight: bolder;
+    padding-right: 20px;
 }
 
 #item .icon i:hover {
@@ -121,4 +122,76 @@
 .mid .btn a.border:hover {
     background: #fff;
     border: 1px solid #fff;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 12rem;
+    background: #171819;
+}
+
+.about h3, h6, h5 {
+    color: #fff;
+}
+
+.about .one {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about .one h3 {
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+
+.about .one h6 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 1.1rem;
+}
+
+.about .one p {
+    color: #666262;
+    font-size: 1.1rem;
+    padding-bottom: 1.5rem;
+}
+
+.about .one a {
+    color: #fff;
+    background: #ff5733;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about .one a:hover {
+    background: #fff;
+    color: #ff5733;
+}
+
+.about .two {
+    width: 45%;
+    border-left: 1px solid #666262;
+    padding-left: 4rem;
+}
+
+.about .two h3 {
+    font-size: 2.5rem;
+}
+
+.about .two h5 {
+    font-size: 1.1rem;
+}
+
+.about .two p {
+    font-size: 1.1rem;
+    color: #666262;
+    margin-bottom: 0.8rem;
 }
