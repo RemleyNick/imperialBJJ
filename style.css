@@ -195,3 +195,33 @@
     color: #666262;
     margin-bottom: 0.8rem;
 }
+
+.programSection h2 {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    background: #666262;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.programs {
+    background: #666262;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.programs .programs1 {
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.programs .programs1 .img img {
+    width: 100%;
+    object-fit: cover;
+}
