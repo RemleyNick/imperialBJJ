@@ -2,25 +2,28 @@
 <html>
     <head>
         <title>Imperial BJJ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        />
     </head>
     <body>
         <div class="nav">
             <h2>Imperial BJJ</h2>
             <ul id="item">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Program">Programs</a></li>
+                <li><a href="#Contact">Contact</a></li>
                 <div class="icon">
-                    <i class="fa-brands fa-facebook-f fa-lg"></i>
-                    <i class="fa-brands fa-instagram fa-lg"></i>
+                    <a href="https://www.facebook.com/ImperialTruthBJJ/" target="_blank"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                    <a href="https://www.instagram.com/imperialjitsu/?hl=en" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
                 </div>
             </ul>
         </div>
-        <div class="back">
+        <div class="back" id="Home">
             <div class="overlay"></div>
         </div>
         <!-- Home section -->
@@ -28,21 +31,33 @@
             <p>Where beginners start everyday</p>
             <h2>Imperial Brazilian Jiu Jitsu</h2>
             <div class="btn">
-                <a class="borderless" href="#">About Us</a>
-                <a class="border" href="#">Programs</a>
+                <a class="borderless" href="#About">About Us</a>
+                <a class="border" href="#Program">Programs</a>
             </div>
         </div>
         <!-- About us section -->
-        <div class="about">
+        <div class="about" id="About">
             <div class="one">
                 <h3>Our Mission</h3>
-                <h6>To empower individuals through the art of Brazilian Jiu Jitsu</h6>
-                <p>We strive to create a welcoming and supportive community that fosters personal growth, physical and mental wellness, and the development of lifelong skills. Our experienced instructors provide world-class training in a safe and respectful environment, helping our members to achieve their full potential both on and off the mats. At our gym, we are committed to cultivating an atmosphere of inclusivity, positivity, and excellence.</p>
-                <a href="#">Contact Us</a>
+                <h6>
+                    To empower individuals through the art of Brazilian Jiu
+                    Jitsu
+                </h6>
+                <p>
+                    We strive to create a welcoming and supportive community
+                    that fosters personal growth, physical and mental wellness,
+                    and the development of lifelong skills. Our experienced
+                    instructors provide world-class training in a safe and
+                    respectful environment, helping our members to achieve their
+                    full potential both on and off the mats. At our gym, we are
+                    committed to cultivating an atmosphere of inclusivity,
+                    positivity, and excellence.
+                </p>
+                <a href="#Contact">Contact Us</a>
             </div>
             <div class="two">
                 <h3>Class Times</h3>
-                <br>
+                <br />
                 <h5>Kids Class</h5>
                 <p>Mon - Thurs: 5:00 - 5:45 PM</p>
                 <h5>Adult Beginner</h5>
@@ -54,49 +69,102 @@
             </div>
         </div>
         <!-- Program Card section -->
-        <div class="programSection">
+        <div class="programSection" id="Program">
             <h2>Our Programs</h2>
-        <div class="programs">
-              <div class="programs1">
-                <div class="img">
-                    <img src="kidsBJJ.jpg" />
-                </div>
-                <div class="programDetails">
-                    <div class="name">
-                        <h4>Kids Program</h4>
+            <div class="programs">
+                <div class="programs1">
+                    <div class="img">
+                        <img src="kidsBJJ.jpg" />
                     </div>
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="programs1">
-                <div class="img">
-                    <img src="whitebelt.jpg" />
-                </div>
-                <div class="programDetails">
-                    <div class="name">
-                        <h4>Kids Program</h4>
-                    </div>
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="programDetails">
+                        <div class="name">
+                            <h4>Kids Program</h4>
+                        </div>
+                        <div class="details">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="programs1">
-                <div class="img">
-                    <img src="advancedBJJ.jpg" />
-                </div>
-                <div class="programDetails">
-                    <div class="name">
-                        <h4>Kids Program</h4>
+                <div class="programs1">
+                    <div class="img">
+                        <img src="whitebelt.jpg" />
                     </div>
-                    <div class="details">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="programDetails">
+                        <div class="name">
+                            <h4>Adult - Beginner</h4>
+                        </div>
+                        <div class="details">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="programs1">
+                    <div class="img">
+                        <img src="advancedBJJ.jpg" />
+                    </div>
+                    <div class="programDetails">
+                        <div class="name">
+                            <h4>Adult - Int/Adv</h4>
+                        </div>
+                        <div class="details">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- Contact Us -->
+        <div class="contact" id="Contact">
+            <div class="form">
+                <h2>Let's Get in Touch</h2>
+                <div class="submit">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <a href="#" id="sendEmail">Send Message</a>
+                  </div>
+            </div>
+            <div class="map">
+                <h2>Where you can find us</h2>
+                <p><i class="fa-sharp fa-solid fa-location-dot"></i>1131 Utah Ave, Butte, MT 59701</p>
+                <p><i class="fa-solid fa-phone"></i>(406) 530-6311</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.451255785903!2d-112.52671289999999!3d46.0021847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535b084603e6a357%3A0x4f03481bf472fea3!2s1131%20Utah%20Ave%2C%20Butte%2C%20MT%2059701!5e0!3m2!1sen!2sus!4v1678819070898!5m2!1sen!2sus" width="1290" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <script>
+            document.getElementById("sendEmail").addEventListener("click", function() {
+              var name = document.getElementsByName("name")[0].value;
+              var email = document.getElementsByName("email")[0].value;
+              var message = document.getElementsByName("message")[0].value;
+          
+              var subject = "New message from " + name;
+              var body = "Email: " + email + "\nMessage: " + message;
+          
+              var mailtoLink = "mailto:imperialtruthbjj@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+          
+              window.location.href = mailtoLink;
+            });
+          </script>
     </body>
 </html>

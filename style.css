@@ -15,7 +15,14 @@
     width: 100%;
     padding: 1rem 6.5rem;
     background: #222;
-    z-index: 100000;
+    z-index: 1000;
+}
+.nav a {
+    text-decoration: none;
+}
+.nav a h2:hover {
+    color: #ff5733;
+    cursor: pointer;
 }
 
 .nav h2 {
@@ -47,13 +54,13 @@
     cursor: pointer;
 }
 
-#item .icon i {
+#item .icon a i {
     color: #fff;
     font-weight: bolder;
     padding-right: 20px;
 }
 
-#item .icon i:hover {
+#item .icon a i:hover {
     color: #ff5733;
     cursor: pointer;
 }
@@ -197,8 +204,7 @@
 }
 
 .programSection h2 {
-    padding-top: 6rem;
-    padding-bottom: 2rem;
+    padding-top: 4.5rem;
     background: #666262;
     text-align: center;
     color: #fff;
@@ -215,7 +221,7 @@
 }
 
 .programs .programs1 {
-    width: 25%;
+    width: 30%;
     height: auto;
     box-sizing: border-box;
     background: #fff;
@@ -224,4 +230,96 @@
 .programs .programs1 .img img {
     width: 100%;
     object-fit: cover;
+}
+
+.programs .programs1 .programDetails .name h4 {
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.programs .programs1 .programDetails .details p {
+    padding: 1rem;
+}
+
+.contact {
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact .form {
+    width: 45%;
+}
+
+.contact .form h2 {
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.contact .form .submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact .form .submit input, .contact .form .submit textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #666262;
+    outline: none;
+    margin: 13px 0;
+}
+
+.contact .form .submit input::placeholder {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+}
+
+.contact .form .submit textarea::placeholder {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    height: 80%;
+}
+
+.contact .form .submit a {
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    background: #212529;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 13px 0;
+}
+
+.contact .map {
+    width: 45%;
+}
+.contact .map h2 {
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.contact .map p {
+    font-size: 1.1rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.contact .map iframe {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.contact .map p i {
+    color: #ff5733;
+    padding-right: 4px;
 }
