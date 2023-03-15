@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Imperial BJJ</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link
             rel="stylesheet"
@@ -11,15 +11,28 @@
     </head>
     <body>
         <div class="nav">
-            <h2>Imperial BJJ</h2>
-            <ul id="item">
+            <h2 id="logo">Imperial BJJ</h2>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul id="item" class="navbar-links">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About Us</a></li>
                 <li><a href="#Program">Programs</a></li>
                 <li><a href="#Contact">Contact</a></li>
                 <div class="icon">
-                    <a href="https://www.facebook.com/ImperialTruthBJJ/" target="_blank"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
-                    <a href="https://www.instagram.com/imperialjitsu/?hl=en" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a
+                        href="https://www.facebook.com/ImperialTruthBJJ/"
+                        target="_blank"
+                        ><i class="fa-brands fa-facebook-f fa-lg"></i
+                    ></a>
+                    <a
+                        href="https://www.instagram.com/imperialjitsu/?hl=en"
+                        target="_blank"
+                        ><i class="fa-brands fa-instagram fa-lg"></i
+                    ></a>
                 </div>
             </ul>
         </div>
@@ -82,7 +95,12 @@
                         </div>
                         <div class="details">
                             <p>
-                                Our kids jiu jitsu class is designed to teach children the fundamentals of Brazilian Jiu Jitsu in a fun and safe environment. Classes focus on basic techniques, coordination, and physical fitness while emphasizing important values such as respect, discipline, and teamwork.
+                                Our kids jiu jitsu class is designed to teach
+                                children the fundamentals of Brazilian Jiu Jitsu
+                                in a fun and safe environment. Classes focus on
+                                basic techniques, coordination, and physical
+                                fitness while emphasizing important values such
+                                as respect, discipline, and teamwork.
                             </p>
                         </div>
                     </div>
@@ -97,7 +115,13 @@
                         </div>
                         <div class="details">
                             <p>
-                                Our beginner Jiu Jitsu class is perfect for those who are new to the art and looking to learn the fundamentals. In this class, students will learn basic techniques, positioning, and movements, as well as build strength, flexibility, and confidence. All adults are welcomed to join this class.
+                                Our beginner Jiu Jitsu class is perfect for
+                                those who are new to the art and looking to
+                                learn the fundamentals. In this class, students
+                                will learn basic techniques, positioning, and
+                                movements, as well as build strength,
+                                flexibility, and confidence. All adults are
+                                welcomed to join this class.
                             </p>
                         </div>
                     </div>
@@ -112,7 +136,12 @@
                         </div>
                         <div class="details">
                             <p>
-                                Our intermediate/advanced class is designed for students with previous grappling experience looking to refine their techniques and improve their overall game. In this class, we focus on advanced techniques and live sparring to help our students reach their full potential.
+                                Our intermediate/advanced class is designed for
+                                students with previous grappling experience
+                                looking to refine their techniques and improve
+                                their overall game. In this class, we focus on
+                                advanced techniques and live sparring to help
+                                our students reach their full potential.
                             </p>
                         </div>
                     </div>
@@ -124,32 +153,58 @@
             <div class="form">
                 <h2>Let's Get in Touch</h2>
                 <div class="submit">
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="name" placeholder="Name" />
+                    <input type="email" name="email" placeholder="Email" />
                     <textarea name="message" placeholder="Message"></textarea>
                     <a href="#" id="sendEmail">Send Message</a>
-                  </div>
+                </div>
             </div>
             <div class="map">
                 <h2>Where you can find us</h2>
-                <p><i class="fa-sharp fa-solid fa-location-dot"></i>1131 Utah Ave, Butte, MT 59701</p>
+                <p>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>1131 Utah
+                    Ave, Butte, MT 59701
+                </p>
                 <p><i class="fa-solid fa-phone"></i>(406) 530-6311</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.451255785903!2d-112.52671289999999!3d46.0021847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535b084603e6a357%3A0x4f03481bf472fea3!2s1131%20Utah%20Ave%2C%20Butte%2C%20MT%2059701!5e0!3m2!1sen!2sus!4v1678819070898!5m2!1sen!2sus" width="1290" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2771.451255785903!2d-112.52671289999999!3d46.0021847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535b084603e6a357%3A0x4f03481bf472fea3!2s1131%20Utah%20Ave%2C%20Butte%2C%20MT%2059701!5e0!3m2!1sen!2sus!4v1678819070898!5m2!1sen!2sus"
+                    width="1290"
+                    height="250"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
             </div>
         </div>
         <script>
-            document.getElementById("sendEmail").addEventListener("click", function() {
-              var name = document.getElementsByName("name")[0].value;
-              var email = document.getElementsByName("email")[0].value;
-              var message = document.getElementsByName("message")[0].value;
-          
-              var subject = "New message from " + name;
-              var body = "Email: " + email + "\nMessage: " + message;
-          
-              var mailtoLink = "mailto:imperialtruthbjj@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-          
-              window.location.href = mailtoLink;
+            document
+                .getElementById("sendEmail")
+                .addEventListener("click", function () {
+                    var name = document.getElementsByName("name")[0].value;
+                    var email = document.getElementsByName("email")[0].value;
+                    var message =
+                        document.getElementsByName("message")[0].value;
+
+                    var subject = "New message from " + name;
+                    var body = "Email: " + email + "\nMessage: " + message;
+
+                    var mailtoLink =
+                        "mailto:imperialtruthbjj@gmail.com?subject=" +
+                        encodeURIComponent(subject) +
+                        "&body=" +
+                        encodeURIComponent(body);
+
+                    window.location.href = mailtoLink;
+                });
+            const toggleButton =
+                document.getElementsByClassName("toggle-button")[0];
+            const navbarLinks =
+                document.getElementsByClassName("navbar-links")[0];
+
+            toggleButton.addEventListener("click", () => {
+                navbarLinks.classList.toggle("active");
             });
-          </script>
+        </script>
     </body>
 </html>
