@@ -639,7 +639,9 @@
       flex-direction: row;
       justify-content: space-between;
     }
-
+    .programs .programs1 .programDetails .name h4 {
+      font-size: small;
+    }
     .programDetails .details p {
         height: 300px;
         overflow-y: auto;
