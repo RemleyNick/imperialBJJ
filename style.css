@@ -613,7 +613,7 @@
     .nav h2 {
       font-size: 1.5rem;
     }
-  
+
     .mid p {
       margin-bottom: 0.8rem;
     }
@@ -634,9 +634,17 @@
       width: 100%;
     }
   
-    .programSection {
-        display: none;
+    .programSection .programs {
+      padding: 1.5rem 1rem;
+      flex-direction: row;
+      justify-content: space-between;
     }
+
+    .programDetails .details p {
+        height: 300px;
+        overflow-y: auto;
+        font-size: smaller;
+      }
   
     .contact {
       padding: 4rem 1rem;
