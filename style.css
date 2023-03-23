@@ -475,6 +475,16 @@
       font-size: 2rem;
       padding-bottom: 1.4rem;
     }
+
+    .programSection .programs {
+      padding: 1.5rem 1rem;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .programs .programs1 {
+      width: 100%;
+    }
   
     .programDetails .details p {
         height: 150px;
@@ -579,8 +589,12 @@
   
     .programSection .programs {
       padding: 5rem 2rem;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
+    }
+
+    .programs .programs1 {
+      width: 100%;
     }
 
     .programDetails .details p {
@@ -636,14 +650,19 @@
   
     .programSection .programs {
       padding: 1.5rem 1rem;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
     }
+
+    .programs .programs1 {
+      width: 100%;
+    }
+
     .programs .programs1 .programDetails .name h4 {
       font-size: small;
     }
     .programDetails .details p {
-        height: 300px;
+        height: auto;
         overflow-y: auto;
         font-size: smaller;
       }
